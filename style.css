@@ -1,8 +1,24 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
+    
+    
+}
+
+.wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 }
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
 .sidebar {
     width: 220px;
     background-color: #088F8F;
@@ -26,7 +42,6 @@ body {
 .content {
     margin-left: 200px;
     margin-right: -12px;
-    
     flex: 1;
 }
 .header {
@@ -68,4 +83,6 @@ a{
     color: white;
     padding: 10px;
     text-align: center;
+    /* width: 100%; */
+    margin-top: auto;
 }
