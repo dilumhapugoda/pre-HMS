@@ -54,7 +54,7 @@ html, body {
 
 .background-container::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -117,3 +117,4 @@ a{
     /* width: 100%; */
     margin-top: auto;
 }
+
