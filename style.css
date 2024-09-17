@@ -40,10 +40,11 @@ html, body {
     background-color: #08a422;
 }
 .content {
-    margin-left: 200px;
+    margin-left: 205px;
     margin-right: -12px;
     flex: 1;
 }
+
 .header {
     background-color: #088F8F; /* Change this color to your preference */
     color: white;
@@ -79,7 +80,11 @@ a{
 }
 
 .footer {
-    background-color: #088F8F;
+    
+    margin-left: 205px;
+    margin-right: 0px;
+    /* background-color: #088F8F; */
+    background: rgba(8, 143, 143, 1);
     color: white;
     padding: 10px;
     text-align: center;
