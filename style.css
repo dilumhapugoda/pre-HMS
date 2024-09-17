@@ -21,7 +21,7 @@ html, body {
 
 .sidebar {
     width: 220px;
-    background-color: #088F8F;
+    background-color: #5ababa;
     color: white;
     height: 100vh;
     position: fixed;
@@ -37,7 +37,7 @@ html, body {
 }
 
 .sidebar a:hover {
-    background-color: #08a422;
+    background-color: #088F8F;
 }
 .content {
     margin-left: 205px;
@@ -67,7 +67,7 @@ html, body {
 }
 
 .header {
-    background-color: #088F8F; /* Change this color to your preference */
+    background-color: #5ababa; /* Change this color to your preference */
     color: white;
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -85,10 +85,10 @@ html, body {
     text-align: center;
     padding: 20px;
     border: none;
-    background-color: #088F8F;
+    background-color: #5ababa;
 }
 .dashboard-icons .card:hover {
-    background-color: #08a422;
+    background-color: #088F8F;
 }
 .dashboard-icons .card img {
     width: 50px;
@@ -110,7 +110,7 @@ a{
     margin-left: 205px;
     margin-right: 0px;
     /* background-color: #088F8F; */
-    background: rgba(8, 143, 143, 1);
+    background: rgba(90, 186, 186, 1);
     color: white;
     padding: 10px;
     text-align: center;
