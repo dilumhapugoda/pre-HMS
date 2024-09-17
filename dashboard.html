@@ -9,15 +9,20 @@
     <title>Dashboard</title>
 </head>
 <body>
+    <div class="background-container">
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
                 <nav class="col-md-2 sidebar">
                     <h4 class="text-center">Hospital Management</h4>
+                    <form class="d-flex">
+                        <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light btn-sm" type="submit">Search</button>
+                    </form>
                     <a href="#">Home</a>
-                    <a href="log.html">Login</a>
+                    <a href="#log">Login</a>
                     <a href="#">Services</a>
-                    <a href="#">Contact</a>
+                    <a href="#">About Us</a>
                     <a href="#dashboard">Dashboard</a>
                     <a href="#appointment">Appointment</a>
                     <a href="#patient-registration">Patient Registration</a>
@@ -30,15 +35,16 @@
                 </nav>
 
             </div>
-
+            
+            
             <div class="content">
                 <header class="header d-flex justify-content-between align-items-center">
                     <h1>LOGO</h1>
                     <h3>Welcome to Our Hospital</h3>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-light" type="submit">Search</button>
-                    </form>
+                    <div class="proimage">
+                        <img src="profile.svg" alt="profilepic">
+                        <button class="btn btn-primary btn-sm">Login</button>
+                    </div>
                 </header>
                 
                 <div class="container">
@@ -76,6 +82,7 @@
                     </main>
                 </div>
             </div>
+            
         </div>
         
             <footer class="footer">
@@ -114,6 +121,6 @@
     
        
     </div>
-    
+    </div>
 </body>
 </html>

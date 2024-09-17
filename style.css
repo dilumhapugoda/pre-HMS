@@ -43,6 +43,27 @@ html, body {
     margin-left: 205px;
     margin-right: -12px;
     flex: 1;
+    z-index: 1;
+}
+
+.background-container {
+    position: relative;
+    height: 100vh;
+    background-color: #fff; /* Fallback background color */
+}
+
+.background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('background3.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6; /* Set opacity */
+     /* Keep it behind the content */
 }
 
 .header {
@@ -50,6 +71,11 @@ html, body {
     color: white;
     padding: 10px 20px;
     margin-bottom: 20px;
+}
+
+.proimage img{
+    width: 50px;
+    height: 50px;
 }
 
 .dashboard-icons {
@@ -80,7 +106,7 @@ a{
 }
 
 .footer {
-    
+    z-index: 1;
     margin-left: 205px;
     margin-right: 0px;
     /* background-color: #088F8F; */
